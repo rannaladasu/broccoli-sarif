@@ -25,6 +25,15 @@ jobs:
           image_name: bridgecrew/transporter:latest
           sarif_file: results.sarif
 
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+
+          git add results.sarif
+          git commit -m "Save output file"
+          git push
+
       # (Optional) for compatibility with GitHub's code scanning alerts
       - name: Upload SARIF file
         if: ${{ always() }} # necessary if using failure thresholds in the image scan
