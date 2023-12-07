@@ -15,28 +15,28 @@ jobs:
       - name: Build the image
         run: docker pull bridgecrew/transporter:latest
 
-      - name: Prisma Cloud image scan
-        id: scan
-        uses: PaloAltoNetworks/prisma-cloud-scan@v1
-        with:
-          pcc_console_url: ${{ secrets.PCC_CONSOLE_URL }}
-          pcc_user: ${{ secrets.PCC_USER }}
-          pcc_pass: ${{ secrets.PCC_PASS }}
-          image_name: bridgecrew/transporter:latest
-          sarif_file: results1.sarif
+      # - name: Prisma Cloud image scan
+      #   id: scan
+      #   uses: PaloAltoNetworks/prisma-cloud-scan@v1
+      #   with:
+      #     pcc_console_url: ${{ secrets.PCC_CONSOLE_URL }}
+      #     pcc_user: ${{ secrets.PCC_USER }}
+      #     pcc_pass: ${{ secrets.PCC_PASS }}
+      #     image_name: bridgecrew/transporter:latest
+      #     sarif_file: results1.sarif
 
-      - name: Commit and Push Changes
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
+      # - name: Commit and Push Changes
+      #   run: |
+      #     git config --local user.email "actions@github.com"
+      #     git config --local user.name "GitHub Actions"
 
-          git add results1.sarif
-          git commit -m "Save output file"
-          git push
+      #     git add results1.sarif
+      #     git commit -m "Save output file"
+      #     git push
 
       # (Optional) for compatibility with GitHub's code scanning alerts
       - name: Upload SARIF file
         if: ${{ always() }} # necessary if using failure thresholds in the image scan
         uses: github/codeql-action/upload-sarif@v2.22.9
         with:
-          sarif_file: results1.sarif
+          sarif_file: results.sarif
