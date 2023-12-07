@@ -1,1 +1,553 @@
-{"$schema":"https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json","version":"2.1.0","runs":[{"tool":{"driver":{"name":"Prisma Cloud (twistcli)","version":"32.00.159","rules":[{"id":"CVE-2023-32002","shortDescription":{"text":"[Prisma Cloud] CVE-2023-32002 in node (critical)"},"fullDescription":{"text":"Critical severity CVE-2023-32002 found in node version 18.16.0"},"help":{"text":"","markdown":"| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-32002](https://nvd.nist.gov/vuln/detail/CVE-2023-32002) | critical | 9.8 | node | 18.16.0 | fixed in 20.5.1, 18.18.1, 17.0.0 | 2023-08-21T17:15:00Z | 2023-12-07T17:13:36Z |"}},{"id":"CVE-2023-32006","shortDescription":{"text":"[Prisma Cloud] CVE-2023-32006 in node (high)"},"fullDescription":{"text":"High severity CVE-2023-32006 found in node version 18.16.0"},"help":{"text":"","markdown":"| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-32006](https://nvd.nist.gov/vuln/detail/CVE-2023-32006) | high | 8.8 | node | 18.16.0 | fixed in 20.5.1, 18.18.1, 17.0.0 | 2023-08-15T16:15:00Z | 2023-12-07T17:13:36Z |"}},{"id":"CVE-2023-38552","shortDescription":{"text":"[Prisma Cloud] CVE-2023-38552 in node (high)"},"fullDescription":{"text":"High severity CVE-2023-38552 found in node version 18.16.0"},"help":{"text":"","markdown":"| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-38552](https://nvd.nist.gov/vuln/detail/CVE-2023-38552) | high | 7.5 | node | 18.16.0 | fixed in 19.0.0 | 2023-10-18T04:15:00Z | 2023-12-07T17:13:36Z |"}},{"id":"CVE-2023-32559","shortDescription":{"text":"[Prisma Cloud] CVE-2023-32559 in node (high)"},"fullDescription":{"text":"High severity CVE-2023-32559 found in node version 18.16.0"},"help":{"text":"","markdown":"| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-32559](https://nvd.nist.gov/vuln/detail/CVE-2023-32559) | high | 7.5 | node | 18.16.0 | fixed in 20.5.1, 18.18.1, 17.0.0 | 2023-08-24T02:15:00Z | 2023-12-07T17:13:36Z |"}},{"id":"CVE-2023-30590","shortDescription":{"text":"[Prisma Cloud] CVE-2023-30590 in node (high)"},"fullDescription":{"text":"High severity CVE-2023-30590 found in node version 18.16.0"},"help":{"text":"","markdown":"| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-30590](https://nvd.nist.gov/vuln/detail/CVE-2023-30590) | high | 7.5 | node | 18.16.0 | fixed in 20.3.1, 18.16.1, 16.20.1 | 2023-11-28T20:15:00Z | 2023-12-07T17:13:36Z |"}},{"id":"CVE-2023-30585","shortDescription":{"text":"[Prisma Cloud] CVE-2023-30585 in node (high)"},"fullDescription":{"text":"High severity CVE-2023-30585 found in node version 18.16.0"},"help":{"text":"","markdown":"| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-30585](https://nvd.nist.gov/vuln/detail/CVE-2023-30585) | high | 7.5 | node | 18.16.0 | fixed in 20.3.1, 18.16.1, 16.20.1 | 2023-11-28T02:15:00Z | 2023-12-07T17:13:36Z |"}},{"id":"CVE-2023-30581","shortDescription":{"text":"[Prisma Cloud] CVE-2023-30581 in node (high)"},"fullDescription":{"text":"High severity CVE-2023-30581 found in node version 18.16.0"},"help":{"text":"","markdown":"| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-30581](https://nvd.nist.gov/vuln/detail/CVE-2023-30581) | high | 7.5 | node | 18.16.0 | fixed in 20.8.0 | 2023-11-23T00:15:00Z | 2023-12-07T17:13:36Z |"}},{"id":"CVE-2022-25883","shortDescription":{"text":"[Prisma Cloud] CVE-2022-25883 in semver (high)"},"fullDescription":{"text":"High severity CVE-2022-25883 found in semver version 7.3.8"},"help":{"text":"","markdown":"| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2022-25883](https://nvd.nist.gov/vuln/detail/CVE-2022-25883) | high | 7.5 | semver | 7.3.8 | fixed in 7.5.2 | 2023-06-21T05:15:00Z | 2023-12-07T17:13:36Z |"}},{"id":"CVE-2023-45322","shortDescription":{"text":"[Prisma Cloud] CVE-2023-45322 in libxml2 (medium)"},"fullDescription":{"text":"Medium severity CVE-2023-45322 found in libxml2 version 2.10.4-r0"},"help":{"text":"","markdown":"| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-45322](https://nvd.nist.gov/vuln/detail/CVE-2023-45322) | medium | 6.5 | libxml2 | 2.10.4-r0 | not fixed | 2023-10-06T22:15:00Z | 2023-12-07T17:13:36Z |"}},{"id":"CVE-2023-30588","shortDescription":{"text":"[Prisma Cloud] CVE-2023-30588 in node (medium)"},"fullDescription":{"text":"Medium severity CVE-2023-30588 found in node version 18.16.0"},"help":{"text":"","markdown":"| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-30588](https://nvd.nist.gov/vuln/detail/CVE-2023-30588) | medium | 5.3 | node | 18.16.0 | fixed in 20.3.1, 18.16.1, 16.20.1 | 2023-11-28T20:15:00Z | 2023-12-07T17:13:36Z |"}},{"id":"CVE-2023-46219","shortDescription":{"text":"[Prisma Cloud] CVE-2023-46219 in curl (low)"},"fullDescription":{"text":"Low severity CVE-2023-46219 found in curl version 8.4.0-r0"},"help":{"text":"","markdown":"| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-46219](https://nvd.nist.gov/vuln/detail/CVE-2023-46219) | low | N/A | curl | 8.4.0-r0 | fixed in 8.5.0-r0 | 2023-12-06T00:00:00Z | 2023-12-07T17:13:36Z |"}},{"id":"CVE-2023-46218","shortDescription":{"text":"[Prisma Cloud] CVE-2023-46218 in curl (low)"},"fullDescription":{"text":"Low severity CVE-2023-46218 found in curl version 8.4.0-r0"},"help":{"text":"","markdown":"| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-46218](https://nvd.nist.gov/vuln/detail/CVE-2023-46218) | low | N/A | curl | 8.4.0-r0 | fixed in 8.5.0-r0 | 2023-12-07T01:15:00Z | 2023-12-07T17:13:36Z |"}},{"id":"9000","shortDescription":{"text":"[Prisma Cloud] Compliance check 9000 violated (high)"},"fullDescription":{"text":"High severity compliance check \"setUID and setGID Bits are set\" violated"},"help":{"text":"","markdown":"| Compliance Check | Severity | Title |\n| --- | --- | --- |\n| 9000 | high | setUID and setGID Bits are set |"}}]}},"results":[{"ruleId":"CVE-2023-32002","level":"warning","message":{"text":"Description:\nThe use of `Module._load()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.  This vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js."},"locations":[{"physicalLocation":{"artifactLocation":{"uri":"bridgecrew/transporter:latest"},"region":{"startLine":1,"startColumn":1,"endLine":1,"endColumn":1}}}]},{"ruleId":"CVE-2023-32006","level":"warning","message":{"text":"Description:\nThe use of `module.constructor.createRequire()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.  This vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x, and, 20.x.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js."},"locations":[{"physicalLocation":{"artifactLocation":{"uri":"bridgecrew/transporter:latest"},"region":{"startLine":1,"startColumn":1,"endLine":1,"endColumn":1}}}]},{"ruleId":"CVE-2023-38552","level":"warning","message":{"text":"Description:\nWhen the Node.js policy feature checks the integrity of a resource against a trusted manifest, the application can intercept the operation and return a forged checksum to the node\\'s policy implementation, thus effectively disabling the integrity check. Impacts: This vulnerability affects all users using the experimental policy mechanism in all active release lines: 18.x and, 20.x. Please note that at the time this CVE was issued, the policy mechanism is an experimental feature of Node.js."},"locations":[{"physicalLocation":{"artifactLocation":{"uri":"bridgecrew/transporter:latest"},"region":{"startLine":1,"startColumn":1,"endLine":1,"endColumn":1}}}]},{"ruleId":"CVE-2023-32559","level":"warning","message":{"text":"Description:\nA privilege escalation vulnerability exists in the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x. The use of the deprecated API `process.binding()` can bypass the policy mechanism by requiring internal modules and eventually take advantage of `process.binding(\\'spawn_sync\\')` run arbitrary code, outside of the limits defined in a `policy.json` file. Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js."},"locations":[{"physicalLocation":{"artifactLocation":{"uri":"bridgecrew/transporter:latest"},"region":{"startLine":1,"startColumn":1,"endLine":1,"endColumn":1}}}]},{"ruleId":"CVE-2023-30590","level":"warning","message":{"text":"Description:\nThe generateKeys() API function returned from crypto.createDiffieHellman() only generates missing (or outdated) keys, that is, it only generates a private key if none has been set yet, but the function is also needed to compute the corresponding public key after calling setPrivateKey(). However, the documentation says this API call: \\\"Generates private and public Diffie-Hellman key values\\\".  The documented behavior is very different from the actual behavior, and this difference could easily lead to security issues in applications that use these APIs as the DiffieHellman may be used as the basis for application-level security, implications are consequently broad."},"locations":[{"physicalLocation":{"artifactLocation":{"uri":"bridgecrew/transporter:latest"},"region":{"startLine":1,"startColumn":1,"endLine":1,"endColumn":1}}}]},{"ruleId":"CVE-2023-30585","level":"warning","message":{"text":"Description:\nA vulnerability has been identified in the Node.js (.msi version) installation process, specifically affecting Windows users who install Node.js using the .msi installer. This vulnerability emerges during the repair operation, where the \\\"msiexec.exe\\\" process, running under the NT AUTHORITY\\\\SYSTEM context, attempts to read the %USERPROFILE% environment variable from the current user\\'s registry.  The issue arises when the path referenced by the %USERPROFILE% environment variable does not exist. In such cases, the \\\"msiexec.exe\\\" process attempts to create the specified path in an unsafe manner, potentially leading to the creation of arbitrary folders in arbitrary locations.  The severity of this vulnerability is heightened by the fact that the %USERPROFILE% environment variable in the Windows registry can be modified by standard (or \\\"non-privileged\\\") users. Consequently, unprivileged actors, including malicious entities or trojans, can manipulate the environment variable key to deceive the privileged \\\"msiexec.exe\\\" process. This manipulation can result in the creation of folders in unintended and potentially malicious locations.  It is important to note that this vulnerability is specific to Windows users who install Node.js using the .msi installer. Users who opt for other installation methods are not affected by this particular issue."},"locations":[{"physicalLocation":{"artifactLocation":{"uri":"bridgecrew/transporter:latest"},"region":{"startLine":1,"startColumn":1,"endLine":1,"endColumn":1}}}]},{"ruleId":"CVE-2023-30581","level":"warning","message":{"text":"Description:\nThe use of __proto__ in process.mainModule.__proto__.require() can bypass the policy mechanism and require modules outside of the policy.json definition. This vulnerability affects all users using the experimental policy mechanism in all active release lines: v16, v18 and, v20.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js"},"locations":[{"physicalLocation":{"artifactLocation":{"uri":"bridgecrew/transporter:latest"},"region":{"startLine":1,"startColumn":1,"endLine":1,"endColumn":1}}}]},{"ruleId":"CVE-2022-25883","level":"warning","message":{"text":"Description:\nVersions of the package semver before 7.5.2 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function new Range, when untrusted user data is provided as a range.\\r\\r\\r"},"locations":[{"physicalLocation":{"artifactLocation":{"uri":"bridgecrew/transporter:latest"},"region":{"startLine":1,"startColumn":1,"endLine":1,"endColumn":1}}}]},{"ruleId":"CVE-2023-45322","level":"warning","message":{"text":"Description:\nlibxml2 through 2.11.5 has a use-after-free that can only occur after a certain memory allocation fails. This occurs in xmlUnlinkNode in tree.c. NOTE: the vendor\\'s position is \\\"I don\\'t think these issues are critical enough to warrant a CVE ID ... because an attacker typically can\\'t control when memory allocations fail.\\\""},"locations":[{"physicalLocation":{"artifactLocation":{"uri":"bridgecrew/transporter:latest"},"region":{"startLine":1,"startColumn":1,"endLine":1,"endColumn":1}}}]},{"ruleId":"CVE-2023-30588","level":"warning","message":{"text":"Description:\nWhen an invalid public key is used to create an x509 certificate using the crypto.X509Certificate() API a non-expect termination occurs making it susceptible to DoS attacks when the attacker could force interruptions of application processing, as the process terminates when accessing public key info of provided certificates from user code. The current context of the users will be gone, and that will cause a DoS scenario. This vulnerability affects all active Node.js versions v16, v18, and, v20."},"locations":[{"physicalLocation":{"artifactLocation":{"uri":"bridgecrew/transporter:latest"},"region":{"startLine":1,"startColumn":1,"endLine":1,"endColumn":1}}}]},{"ruleId":"CVE-2023-46219","level":"warning","message":{"text":"Description:\nno description is available for this cve."},"locations":[{"physicalLocation":{"artifactLocation":{"uri":"bridgecrew/transporter:latest"},"region":{"startLine":1,"startColumn":1,"endLine":1,"endColumn":1}}}]},{"ruleId":"CVE-2023-46218","level":"warning","message":{"text":"Description:\nThis flaw allows a malicious HTTP server to set \\\"super cookies\\\" in curl that are then passed back to more origins than what is otherwise allowed or possible. This allows a site to set cookies that then would get sent to different and unrelated sites and domains.  It could do this by exploiting a mixed case flaw in curl\\'s function that verifies a given cookie domain against the Public Suffix List (PSL). For example a cookie could be set with `domain=co.UK` when the URL used a lower case hostname `curl.co.uk`, even though `co.uk` is listed as a PSL domain. "},"locations":[{"physicalLocation":{"artifactLocation":{"uri":"bridgecrew/transporter:latest"},"region":{"startLine":1,"startColumn":1,"endLine":1,"endColumn":1}}}]},{"ruleId":"9000","level":"warning","message":{"text":"Description:\nundefined"},"locations":[{"physicalLocation":{"artifactLocation":{"uri":"bridgecrew/transporter:latest"},"region":{"startLine":1,"startColumn":1,"endLine":1,"endColumn":1}}}]}]}]}
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs":
+    [
+      {
+        "tool":
+          {
+            "driver":
+              {
+                "name": "Prisma Cloud (twistcli)",
+                "version": "32.00.159",
+                "rules":
+                  [
+                    {
+                      "id": "CVE-2023-32002",
+                      "shortDescription":
+                        {
+                          "text": "[Prisma Cloud] CVE-2023-32002 in node (critical)",
+                        },
+                      "fullDescription":
+                        {
+                          "text": "Critical severity CVE-2023-32002 found in node version 18.16.0",
+                        },
+                      "help":
+                        {
+                          "text": "",
+                          "markdown": "| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-32002](https://nvd.nist.gov/vuln/detail/CVE-2023-32002) | critical | 9.8 | node | 18.16.0 | fixed in 20.5.1, 18.18.1, 17.0.0 | 2023-08-21T17:15:00Z | 2023-12-07T17:13:36Z |",
+                        },
+                    },
+                    {
+                      "id": "CVE-2023-32002",
+                      "shortDescription":
+                        {
+                          "text": "[Prisma Cloud] CVE-2023-32006 in node (high)",
+                        },
+                      "fullDescription":
+                        {
+                          "text": "High severity CVE-2023-32006 found in node version 18.16.0",
+                        },
+                      "help":
+                        {
+                          "text": "",
+                          "markdown": "| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-32006](https://nvd.nist.gov/vuln/detail/CVE-2023-32006) | high | 8.8 | node | 18.16.0 | fixed in 20.5.1, 18.18.1, 17.0.0 | 2023-08-15T16:15:00Z | 2023-12-07T17:13:36Z |",
+                        },
+                    },
+                    {
+                      "id": "CVE-2023-38552",
+                      "shortDescription":
+                        {
+                          "text": "[Prisma Cloud] CVE-2023-38552 in node (high)",
+                        },
+                      "fullDescription":
+                        {
+                          "text": "High severity CVE-2023-38552 found in node version 18.16.0",
+                        },
+                      "help":
+                        {
+                          "text": "",
+                          "markdown": "| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-38552](https://nvd.nist.gov/vuln/detail/CVE-2023-38552) | high | 7.5 | node | 18.16.0 | fixed in 19.0.0 | 2023-10-18T04:15:00Z | 2023-12-07T17:13:36Z |",
+                        },
+                    },
+                    {
+                      "id": "CVE-2023-32559",
+                      "shortDescription":
+                        {
+                          "text": "[Prisma Cloud] CVE-2023-32559 in node (high)",
+                        },
+                      "fullDescription":
+                        {
+                          "text": "High severity CVE-2023-32559 found in node version 18.16.0",
+                        },
+                      "help":
+                        {
+                          "text": "",
+                          "markdown": "| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-32559](https://nvd.nist.gov/vuln/detail/CVE-2023-32559) | high | 7.5 | node | 18.16.0 | fixed in 20.5.1, 18.18.1, 17.0.0 | 2023-08-24T02:15:00Z | 2023-12-07T17:13:36Z |",
+                        },
+                    },
+                    {
+                      "id": "CVE-2023-30590",
+                      "shortDescription":
+                        {
+                          "text": "[Prisma Cloud] CVE-2023-30590 in node (high)",
+                        },
+                      "fullDescription":
+                        {
+                          "text": "High severity CVE-2023-30590 found in node version 18.16.0",
+                        },
+                      "help":
+                        {
+                          "text": "",
+                          "markdown": "| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-30590](https://nvd.nist.gov/vuln/detail/CVE-2023-30590) | high | 7.5 | node | 18.16.0 | fixed in 20.3.1, 18.16.1, 16.20.1 | 2023-11-28T20:15:00Z | 2023-12-07T17:13:36Z |",
+                        },
+                    },
+                    {
+                      "id": "CVE-2023-30585",
+                      "shortDescription":
+                        {
+                          "text": "[Prisma Cloud] CVE-2023-30585 in node (high)",
+                        },
+                      "fullDescription":
+                        {
+                          "text": "High severity CVE-2023-30585 found in node version 18.16.0",
+                        },
+                      "help":
+                        {
+                          "text": "",
+                          "markdown": "| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-30585](https://nvd.nist.gov/vuln/detail/CVE-2023-30585) | high | 7.5 | node | 18.16.0 | fixed in 20.3.1, 18.16.1, 16.20.1 | 2023-11-28T02:15:00Z | 2023-12-07T17:13:36Z |",
+                        },
+                    },
+                    {
+                      "id": "CVE-2023-30581",
+                      "shortDescription":
+                        {
+                          "text": "[Prisma Cloud] CVE-2023-30581 in node (high)",
+                        },
+                      "fullDescription":
+                        {
+                          "text": "High severity CVE-2023-30581 found in node version 18.16.0",
+                        },
+                      "help":
+                        {
+                          "text": "",
+                          "markdown": "| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-30581](https://nvd.nist.gov/vuln/detail/CVE-2023-30581) | high | 7.5 | node | 18.16.0 | fixed in 20.8.0 | 2023-11-23T00:15:00Z | 2023-12-07T17:13:36Z |",
+                        },
+                    },
+                    {
+                      "id": "CVE-2022-25883",
+                      "shortDescription":
+                        {
+                          "text": "[Prisma Cloud] CVE-2022-25883 in semver (high)",
+                        },
+                      "fullDescription":
+                        {
+                          "text": "High severity CVE-2022-25883 found in semver version 7.3.8",
+                        },
+                      "help":
+                        {
+                          "text": "",
+                          "markdown": "| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2022-25883](https://nvd.nist.gov/vuln/detail/CVE-2022-25883) | high | 7.5 | semver | 7.3.8 | fixed in 7.5.2 | 2023-06-21T05:15:00Z | 2023-12-07T17:13:36Z |",
+                        },
+                    },
+                    {
+                      "id": "CVE-2023-45322",
+                      "shortDescription":
+                        {
+                          "text": "[Prisma Cloud] CVE-2023-45322 in libxml2 (medium)",
+                        },
+                      "fullDescription":
+                        {
+                          "text": "Medium severity CVE-2023-45322 found in libxml2 version 2.10.4-r0",
+                        },
+                      "help":
+                        {
+                          "text": "",
+                          "markdown": "| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-45322](https://nvd.nist.gov/vuln/detail/CVE-2023-45322) | medium | 6.5 | libxml2 | 2.10.4-r0 | not fixed | 2023-10-06T22:15:00Z | 2023-12-07T17:13:36Z |",
+                        },
+                    },
+                    {
+                      "id": "CVE-2023-30588",
+                      "shortDescription":
+                        {
+                          "text": "[Prisma Cloud] CVE-2023-30588 in node (medium)",
+                        },
+                      "fullDescription":
+                        {
+                          "text": "Medium severity CVE-2023-30588 found in node version 18.16.0",
+                        },
+                      "help":
+                        {
+                          "text": "",
+                          "markdown": "| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-30588](https://nvd.nist.gov/vuln/detail/CVE-2023-30588) | medium | 5.3 | node | 18.16.0 | fixed in 20.3.1, 18.16.1, 16.20.1 | 2023-11-28T20:15:00Z | 2023-12-07T17:13:36Z |",
+                        },
+                    },
+                    {
+                      "id": "CVE-2023-46219",
+                      "shortDescription":
+                        {
+                          "text": "[Prisma Cloud] CVE-2023-46219 in curl (low)",
+                        },
+                      "fullDescription":
+                        {
+                          "text": "Low severity CVE-2023-46219 found in curl version 8.4.0-r0",
+                        },
+                      "help":
+                        {
+                          "text": "",
+                          "markdown": "| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-46219](https://nvd.nist.gov/vuln/detail/CVE-2023-46219) | low | N/A | curl | 8.4.0-r0 | fixed in 8.5.0-r0 | 2023-12-06T00:00:00Z | 2023-12-07T17:13:36Z |",
+                        },
+                    },
+                    {
+                      "id": "CVE-2023-46218",
+                      "shortDescription":
+                        {
+                          "text": "[Prisma Cloud] CVE-2023-46218 in curl (low)",
+                        },
+                      "fullDescription":
+                        {
+                          "text": "Low severity CVE-2023-46218 found in curl version 8.4.0-r0",
+                        },
+                      "help":
+                        {
+                          "text": "",
+                          "markdown": "| CVE | Severity | CVSS | Package | Version | Fix Status | Published | Discovered |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| [CVE-2023-46218](https://nvd.nist.gov/vuln/detail/CVE-2023-46218) | low | N/A | curl | 8.4.0-r0 | fixed in 8.5.0-r0 | 2023-12-07T01:15:00Z | 2023-12-07T17:13:36Z |",
+                        },
+                    },
+                    {
+                      "id": "9000",
+                      "shortDescription":
+                        {
+                          "text": "[Prisma Cloud] Compliance check 9000 violated (high)",
+                        },
+                      "fullDescription":
+                        {
+                          "text": 'High severity compliance check "setUID and setGID Bits are set" violated',
+                        },
+                      "help":
+                        {
+                          "text": "",
+                          "markdown": "| Compliance Check | Severity | Title |\n| --- | --- | --- |\n| 9000 | high | setUID and setGID Bits are set |",
+                        },
+                    },
+                  ],
+              },
+          },
+        "results":
+          [
+            {
+              "ruleId": "CVE-2023-32002",
+              "level": "warning",
+              "message":
+                {
+                  "text": "Description:\nThe use of `Module._load()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.  This vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+                },
+              "locations":
+                [
+                  {
+                    "physicalLocation":
+                      {
+                        "artifactLocation":
+                          { "uri": "bridgecrew/transporter:latest" },
+                        "region":
+                          {
+                            "startLine": 1,
+                            "startColumn": 1,
+                            "endLine": 1,
+                            "endColumn": 1,
+                          },
+                      },
+                  },
+                ],
+            },
+            {
+              "ruleId": "CVE-2023-32006",
+              "level": "warning",
+              "message":
+                {
+                  "text": "Description:\nThe use of `module.constructor.createRequire()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.  This vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x, and, 20.x.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+                },
+              "locations":
+                [
+                  {
+                    "physicalLocation":
+                      {
+                        "artifactLocation":
+                          { "uri": "bridgecrew/transporter:latest" },
+                        "region":
+                          {
+                            "startLine": 1,
+                            "startColumn": 1,
+                            "endLine": 1,
+                            "endColumn": 1,
+                          },
+                      },
+                  },
+                ],
+            },
+            {
+              "ruleId": "CVE-2023-38552",
+              "level": "warning",
+              "message":
+                {
+                  "text": "Description:\nWhen the Node.js policy feature checks the integrity of a resource against a trusted manifest, the application can intercept the operation and return a forged checksum to the node\\'s policy implementation, thus effectively disabling the integrity check. Impacts: This vulnerability affects all users using the experimental policy mechanism in all active release lines: 18.x and, 20.x. Please note that at the time this CVE was issued, the policy mechanism is an experimental feature of Node.js.",
+                },
+              "locations":
+                [
+                  {
+                    "physicalLocation":
+                      {
+                        "artifactLocation":
+                          { "uri": "bridgecrew/transporter:latest" },
+                        "region":
+                          {
+                            "startLine": 1,
+                            "startColumn": 1,
+                            "endLine": 1,
+                            "endColumn": 1,
+                          },
+                      },
+                  },
+                ],
+            },
+            {
+              "ruleId": "CVE-2023-32559",
+              "level": "warning",
+              "message":
+                {
+                  "text": "Description:\nA privilege escalation vulnerability exists in the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x. The use of the deprecated API `process.binding()` can bypass the policy mechanism by requiring internal modules and eventually take advantage of `process.binding(\\'spawn_sync\\')` run arbitrary code, outside of the limits defined in a `policy.json` file. Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+                },
+              "locations":
+                [
+                  {
+                    "physicalLocation":
+                      {
+                        "artifactLocation":
+                          { "uri": "bridgecrew/transporter:latest" },
+                        "region":
+                          {
+                            "startLine": 1,
+                            "startColumn": 1,
+                            "endLine": 1,
+                            "endColumn": 1,
+                          },
+                      },
+                  },
+                ],
+            },
+            {
+              "ruleId": "CVE-2023-30590",
+              "level": "warning",
+              "message":
+                {
+                  "text": "Description:\nThe generateKeys() API function returned from crypto.createDiffieHellman() only generates missing (or outdated) keys, that is, it only generates a private key if none has been set yet, but the function is also needed to compute the corresponding public key after calling setPrivateKey(). However, the documentation says this API call: \\\"Generates private and public Diffie-Hellman key values\\\".  The documented behavior is very different from the actual behavior, and this difference could easily lead to security issues in applications that use these APIs as the DiffieHellman may be used as the basis for application-level security, implications are consequently broad.",
+                },
+              "locations":
+                [
+                  {
+                    "physicalLocation":
+                      {
+                        "artifactLocation":
+                          { "uri": "bridgecrew/transporter:latest" },
+                        "region":
+                          {
+                            "startLine": 1,
+                            "startColumn": 1,
+                            "endLine": 1,
+                            "endColumn": 1,
+                          },
+                      },
+                  },
+                ],
+            },
+            {
+              "ruleId": "CVE-2023-30585",
+              "level": "warning",
+              "message":
+                {
+                  "text": "Description:\nA vulnerability has been identified in the Node.js (.msi version) installation process, specifically affecting Windows users who install Node.js using the .msi installer. This vulnerability emerges during the repair operation, where the \\\"msiexec.exe\\\" process, running under the NT AUTHORITY\\\\SYSTEM context, attempts to read the %USERPROFILE% environment variable from the current user\\'s registry.  The issue arises when the path referenced by the %USERPROFILE% environment variable does not exist. In such cases, the \\\"msiexec.exe\\\" process attempts to create the specified path in an unsafe manner, potentially leading to the creation of arbitrary folders in arbitrary locations.  The severity of this vulnerability is heightened by the fact that the %USERPROFILE% environment variable in the Windows registry can be modified by standard (or \\\"non-privileged\\\") users. Consequently, unprivileged actors, including malicious entities or trojans, can manipulate the environment variable key to deceive the privileged \\\"msiexec.exe\\\" process. This manipulation can result in the creation of folders in unintended and potentially malicious locations.  It is important to note that this vulnerability is specific to Windows users who install Node.js using the .msi installer. Users who opt for other installation methods are not affected by this particular issue.",
+                },
+              "locations":
+                [
+                  {
+                    "physicalLocation":
+                      {
+                        "artifactLocation":
+                          { "uri": "bridgecrew/transporter:latest" },
+                        "region":
+                          {
+                            "startLine": 1,
+                            "startColumn": 1,
+                            "endLine": 1,
+                            "endColumn": 1,
+                          },
+                      },
+                  },
+                ],
+            },
+            {
+              "ruleId": "CVE-2023-30581",
+              "level": "warning",
+              "message":
+                {
+                  "text": "Description:\nThe use of __proto__ in process.mainModule.__proto__.require() can bypass the policy mechanism and require modules outside of the policy.json definition. This vulnerability affects all users using the experimental policy mechanism in all active release lines: v16, v18 and, v20.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js",
+                },
+              "locations":
+                [
+                  {
+                    "physicalLocation":
+                      {
+                        "artifactLocation":
+                          { "uri": "bridgecrew/transporter:latest" },
+                        "region":
+                          {
+                            "startLine": 1,
+                            "startColumn": 1,
+                            "endLine": 1,
+                            "endColumn": 1,
+                          },
+                      },
+                  },
+                ],
+            },
+            {
+              "ruleId": "CVE-2022-25883",
+              "level": "warning",
+              "message":
+                {
+                  "text": "Description:\nVersions of the package semver before 7.5.2 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function new Range, when untrusted user data is provided as a range.\\r\\r\\r",
+                },
+              "locations":
+                [
+                  {
+                    "physicalLocation":
+                      {
+                        "artifactLocation":
+                          { "uri": "bridgecrew/transporter:latest" },
+                        "region":
+                          {
+                            "startLine": 1,
+                            "startColumn": 1,
+                            "endLine": 1,
+                            "endColumn": 1,
+                          },
+                      },
+                  },
+                ],
+            },
+            {
+              "ruleId": "CVE-2023-45322",
+              "level": "warning",
+              "message":
+                {
+                  "text": "Description:\nlibxml2 through 2.11.5 has a use-after-free that can only occur after a certain memory allocation fails. This occurs in xmlUnlinkNode in tree.c. NOTE: the vendor\\'s position is \\\"I don\\'t think these issues are critical enough to warrant a CVE ID ... because an attacker typically can\\'t control when memory allocations fail.\\\"",
+                },
+              "locations":
+                [
+                  {
+                    "physicalLocation":
+                      {
+                        "artifactLocation":
+                          { "uri": "bridgecrew/transporter:latest" },
+                        "region":
+                          {
+                            "startLine": 1,
+                            "startColumn": 1,
+                            "endLine": 1,
+                            "endColumn": 1,
+                          },
+                      },
+                  },
+                ],
+            },
+            {
+              "ruleId": "CVE-2023-30588",
+              "level": "warning",
+              "message":
+                {
+                  "text": "Description:\nWhen an invalid public key is used to create an x509 certificate using the crypto.X509Certificate() API a non-expect termination occurs making it susceptible to DoS attacks when the attacker could force interruptions of application processing, as the process terminates when accessing public key info of provided certificates from user code. The current context of the users will be gone, and that will cause a DoS scenario. This vulnerability affects all active Node.js versions v16, v18, and, v20.",
+                },
+              "locations":
+                [
+                  {
+                    "physicalLocation":
+                      {
+                        "artifactLocation":
+                          { "uri": "bridgecrew/transporter:latest" },
+                        "region":
+                          {
+                            "startLine": 1,
+                            "startColumn": 1,
+                            "endLine": 1,
+                            "endColumn": 1,
+                          },
+                      },
+                  },
+                ],
+            },
+            {
+              "ruleId": "CVE-2023-46219",
+              "level": "warning",
+              "message":
+                {
+                  "text": "Description:\nno description is available for this cve.",
+                },
+              "locations":
+                [
+                  {
+                    "physicalLocation":
+                      {
+                        "artifactLocation":
+                          { "uri": "bridgecrew/transporter:latest" },
+                        "region":
+                          {
+                            "startLine": 1,
+                            "startColumn": 1,
+                            "endLine": 1,
+                            "endColumn": 1,
+                          },
+                      },
+                  },
+                ],
+            },
+            {
+              "ruleId": "CVE-2023-46218",
+              "level": "warning",
+              "message":
+                {
+                  "text": "Description:\nThis flaw allows a malicious HTTP server to set \\\"super cookies\\\" in curl that are then passed back to more origins than what is otherwise allowed or possible. This allows a site to set cookies that then would get sent to different and unrelated sites and domains.  It could do this by exploiting a mixed case flaw in curl\\'s function that verifies a given cookie domain against the Public Suffix List (PSL). For example a cookie could be set with `domain=co.UK` when the URL used a lower case hostname `curl.co.uk`, even though `co.uk` is listed as a PSL domain. ",
+                },
+              "locations":
+                [
+                  {
+                    "physicalLocation":
+                      {
+                        "artifactLocation":
+                          { "uri": "bridgecrew/transporter:latest" },
+                        "region":
+                          {
+                            "startLine": 1,
+                            "startColumn": 1,
+                            "endLine": 1,
+                            "endColumn": 1,
+                          },
+                      },
+                  },
+                ],
+            },
+            {
+              "ruleId": "9000",
+              "level": "warning",
+              "message": { "text": "Description:\nundefined" },
+              "locations":
+                [
+                  {
+                    "physicalLocation":
+                      {
+                        "artifactLocation":
+                          { "uri": "bridgecrew/transporter:latest" },
+                        "region":
+                          {
+                            "startLine": 1,
+                            "startColumn": 1,
+                            "endLine": 1,
+                            "endColumn": 1,
+                          },
+                      },
+                  },
+                ],
+            },
+          ],
+      },
+    ],
+}
