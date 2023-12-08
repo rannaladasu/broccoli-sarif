@@ -13,26 +13,26 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Build the image
-        run: docker pull bridgecrew/transporter:latest
+        run: docker pull mcr.microsoft.com/dotnet/sdk:5.0
 
-      # - name: Prisma Cloud image scan
-      #   id: scan
-      #   uses: PaloAltoNetworks/prisma-cloud-scan@v1
-      #   with:
-      #     pcc_console_url: ${{ secrets.PCC_CONSOLE_URL }}
-      #     pcc_user: ${{ secrets.PCC_USER }}
-      #     pcc_pass: ${{ secrets.PCC_PASS }}
-      #     image_name: bridgecrew/transporter:latest
-      #     sarif_file: results1.sarif
+      - name: Prisma Cloud image scan
+        id: scan
+        uses: PaloAltoNetworks/prisma-cloud-scan@v1
+        with:
+          pcc_console_url: ${{ secrets.PCC_CONSOLE_URL }}
+          pcc_user: ${{ secrets.PCC_USER }}
+          pcc_pass: ${{ secrets.PCC_PASS }}
+          image_name: mcr.microsoft.com/dotnet/sdk:5.0
+          sarif_file: results1.sarif
 
-      # - name: Commit and Push Changes
-      #   run: |
-      #     git config --local user.email "actions@github.com"
-      #     git config --local user.name "GitHub Actions"
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
 
-      #     git add results1.sarif
-      #     git commit -m "Save output file"
-      #     git push
+          git add results1.sarif
+          git commit -m "Save output file"
+          git push
 
       # (Optional) for compatibility with GitHub's code scanning alerts
       - name: Upload SARIF file
