@@ -17,20 +17,20 @@ jobs:
 
       - name: Prisma Cloud image scan
         id: scan
-        uses: PaloAltoNetworks/prisma-cloud-scan@v1
+        uses: PaloAltoNetworks/prisma-cloud-scan@v1.6.2
         with:
           pcc_console_url: ${{ secrets.PCC_CONSOLE_URL }}
           pcc_user: ${{ secrets.PCC_USER }}
           pcc_pass: ${{ secrets.PCC_PASS }}
           image_name: mcr.microsoft.com/dotnet/sdk:5.0
-          sarif_file: old.sarif
+          sarif_file: new.sarif
 
       - name: Commit and Push Changes
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
 
-          git add old.sarif
+          git add new.sarif
           git commit -m "Save output file"
           git push
 
@@ -39,4 +39,4 @@ jobs:
         if: ${{ always() }} # necessary if using failure thresholds in the image scan
         uses: github/codeql-action/upload-sarif@v2.22.9
         with:
-          sarif_file: old.sarif
+          sarif_file: new.sarif
